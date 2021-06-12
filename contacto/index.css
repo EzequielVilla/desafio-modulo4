@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-cont {
+    height: auto;
+}
+@media (max-width: 376px) {
+    .first-cont {
+        color: white;
+        background-color: black;
+    }
+}
+@media (min-width: 376px) {
+    .first-cont {
+        height: 650px;
+        background-image: url("../img/background-contacto.svg");
+    }
+    .contacto {
+        background-color: transparent;
+    }
+}

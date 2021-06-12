@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-cont {
+    height: auto;
+}
+@media (max-width: 376px) {
+    .first-cont {
+        color: white;
+        background-color: black;
+    }
+}
+@media (min-width: 376px) {
+    .first-cont {
+        height: 650px;
+        background-image: url("../img/background-portfolio.svg");
+    }
+}
+.first-cont__title {
+    margin-top: 150px;
+    padding-bottom: 200px;
+    color: white;
+}
+.first-cont__title__saludo {
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 376px) {
+    .first-cont__title__saludo {
+        justify-content: left;
+        margin-left: 24px;
+    }
+}
+
+.portfolio-component {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 376px) {
+    .portfolio-component {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: 1fr 1fr;
+    }
+}
+
+.portfolio-component__copy__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 42px;
+    margin-right: 42px;
+}
+@media (min-width: 376px) {
+    .portfolio-component__copy__box {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+@media (min-width: 376px) {
+    .portfolio-component__img {
+        margin-top: 40px;
+    }
+}
+
+.portfolio-component__title {
+    margin-top: 15px;
+}
+.portfolio-component__info {
+    line-height: 24px;
+    margin: 10px 2%;
+}
+.portfolio-component__link {
+    margin-bottom: 55px;
+    text-decoration: none;
+    color: #fc6f50;
+}
+@media (min-width: 376px) {
+    .portfolio-component__paste {
+        display: none;
+    }
+}
