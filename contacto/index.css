@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Poppins";
-    src: url("./fonts/Poppins-Regular.ttf");
+    src: url("../fonts/Poppins-Regular.ttf");
 }
 
 * {
@@ -21,7 +21,7 @@
 @media (min-width: 376px) {
     .first-cont {
         height: 650px;
-        background-image: url("./img/background-contacto.svg");
+        background-image: url("../img/background-contacto.svg");
     }
     .contacto {
         background-color: transparent;

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Poppins";
-    src: url("./fonts/Poppins-Regular.ttf");
+    src: url("../fonts/Poppins-Regular.ttf");
 }
 
 * {
@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 .first-cont {
-    background-image: url("./img/background-home.svg");
+    background-image: url("../img/background-home.svg");
     height: 616px;
 }
 
