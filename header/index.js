@@ -6,7 +6,7 @@ function header(el){
         <h2 class="header__logo">EZE</h2>
             <div id="lista" class="header__l-cont">
                 <a href="" class="header__i-cont__cruz">
-                    <img src="./img/vector.svg" alt="" />
+                    <img src="/desafio-modulo4/img/vector.svg" alt="" />
                 </a>
                 <ul class="header__l-cont__lista">
                     <li class="header__l-cont__lista__opcion">
@@ -36,7 +36,7 @@ function header(el){
                 <a href="#lista"
                     ><img
                         id="lista"
-                        src="./img/burger.svg"
+                        src="/desafio-modulo4/img/burger.svg"
                         alt=""
                         class="header__img__burger"
                 /></a>
