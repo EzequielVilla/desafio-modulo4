@@ -11,7 +11,7 @@ function header(el){
                 <ul class="header__l-cont__lista">
                     <li class="header__l-cont__lista__opcion">
                         <a
-                            href="../portfolio/index.html"
+                            href="./portfolio/index.html"
                             class="header__l-cont__lista__opcion__link"
                             >Portfolio</a
                         >
@@ -25,7 +25,7 @@ function header(el){
                     </li>
                     <li class="header__l-cont__lista__opcion">
                         <a
-                            href="../contacto/index.html"
+                            href="./contacto/index.html"
                             class="header__l-cont__lista__opcion__link"
                             >Contacto</a
                         >
