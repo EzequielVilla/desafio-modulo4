@@ -18,14 +18,14 @@ function header(el){
                     </li>
                     <li class="header__l-cont__lista__opcion">
                         <a
-                            href="../index.html"
+                            href="./index.html"
                             class="header__l-cont__lista__opcion__link"
                             >Servicios</a
                         >
                     </li>
                     <li class="header__l-cont__lista__opcion">
                         <a
-                            href="./contacto/index.html"
+                            href="../contacto/index.html"
                             class="header__l-cont__lista__opcion__link"
                             >Contacto</a
                         >
