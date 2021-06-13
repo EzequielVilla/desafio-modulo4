@@ -11,21 +11,21 @@ function header(el){
                 <ul class="header__l-cont__lista">
                     <li class="header__l-cont__lista__opcion">
                         <a
-                            href="/portfolio/index.html"
+                            href="/desafio-modulo4/portfolio/index.html"
                             class="header__l-cont__lista__opcion__link"
                             >Portfolio</a
                         >
                     </li>
                     <li class="header__l-cont__lista__opcion">
                         <a
-                            href="/index.html"
+                            href="/desafio-modulo4/index.html"
                             class="header__l-cont__lista__opcion__link"
                             >Servicios</a
                         >
                     </li>
                     <li class="header__l-cont__lista__opcion">
                         <a
-                            href="/contacto/index.html"
+                            href="/desafio-modulo4/contacto/index.html"
                             class="header__l-cont__lista__opcion__link"
                             >Contacto</a
                         >
